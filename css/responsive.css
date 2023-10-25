@@ -32,6 +32,9 @@
     position: fixed;
     top: 42px;
   }
+  header nav.active + .header-right .search .recommend-box {
+    width: 100%;
+  }
   header nav ul {
     padding: 84px 0;
   }

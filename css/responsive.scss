@@ -52,6 +52,13 @@
         + .header-right {
           position: fixed;
           top: 42px;
+
+          .search {
+
+            .recommend-box {
+              width: 100%;
+            }
+          }
         }
       }
 
