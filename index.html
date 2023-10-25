@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weaverloft</title>
+
+  <!-- RESET CSS -->
+  <link rel="stylesheet" href="css/default.css">
+
+  <!-- FONT  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- SWIPER JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script defer src="js/custom.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1><a href="#"><img src="img/header-logo.png" alt="위버로프트 메인로고"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#none">회사소개</a></li>
+          <li><a href="#none">주요사업</a></li>
+          <li><a href="#none">매거진</a></li>
+          <li><a href="#none">공지사항</a></li>
+          <li><a href="#none">채용공고</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <div class="search">
+          <input type="search" name="query" placeholder="키워드를 입력하세요.">
+          <button type="submit">검색</button>
+          <div class="recommend-box">
+            <h4>추천 검색어</h4>
+            <ul>
+              <li><a href="#none">#디자인</a></li>
+              <li><a href="#none">#기획</a></li>
+              <li><a href="#none">#퍼블리셔</a></li>
+              <li><a href="#none">#코딩테스트</a></li>
+              <li><a href="#none">#백엔드개발자</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="visual">
+        <h2 class="hide">메인 슬라이드 영역</h2>
+        <div class="inner">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="txt">
+                  <span>Event</span>
+                  <h2>메인타이틀 문구가 들어갑니다.</h2>
+                  <p>
+                    서브 타이틀 내용이 들어갑니다. 서브 타이틀 내용이 들어갑니다. <span>서브 타이틀 내용이 들어갑니다.</span>  
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="txt">
+                  <span>Event</span>
+                  <h2>메인타이틀 문구가 들어갑니다.</h2>
+                  <p>
+                    서브 타이틀 내용이 들어갑니다. 서브 타이틀 내용이 들어갑니다. <span>서브 타이틀 내용이 들어갑니다.</span>  
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="txt">
+                  <span>Event</span>
+                  <h2>메인타이틀 문구가 들어갑니다.</h2>
+                  <p>
+                    서브 타이틀 내용이 들어갑니다. 서브 타이틀 내용이 들어갑니다. <span>서브 타이틀 내용이 들어갑니다.</span>  
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="txt">
+                  <span>Event</span>
+                  <h2>메인타이틀 문구가 들어갑니다.</h2>
+                  <p>
+                    서브 타이틀 내용이 들어갑니다. 서브 타이틀 내용이 들어갑니다. <span>서브 타이틀 내용이 들어갑니다.</span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="control-bar">
+              <div class="swiper-pagination"></div>
+              <div class="control-btn"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <h2 class="hide">프로젝트 영역</h2>
+        <div class="inner">
+          <h3 class="title">project</h3>
+          <div class="category">
+            <input type="radio" name="category-group" id="label-all" data-filter="all" checked>
+            <input type="radio" name="category-group" id="label-uiux" data-filter="uiux">
+            <input type="radio" name="category-group" id="label-design" data-filter="design">
+            <input type="radio" name="category-group" id="label-develop" data-filter="develop">
+
+            <label for="label-all" class="category-btn">#all</label>
+            <label for="label-uiux" class="category-btn">#uiux</label>
+            <label for="label-design" class="category-btn">#design</label>
+            <label for="label-develop" class="category-btn">#development</label>
+          </div>
+          <div class="content-wrap">
+            <a href="#none" class="content" data-type="design">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>타이틀이 들어갑니다.</h4>
+                <p>
+                  서브타이틀이 들어갑니다. 서브타이틀이 들어갑니다.
+                </p>
+              </div>
+            </a>
+            <a href="#none" class="content" data-type="design">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>타이틀이 들어갑니다.</h4>
+                <p>
+                  서브타이틀이 들어갑니다. 서브타이틀이 들어갑니다. 서브타이틀이 들어갑니다.
+                </p>
+              </div>
+            </a>
+            <a href="#none" class="content" data-type="develop">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>타이틀이 들어갑니다.</h4>
+                <p>
+                  서브타이틀이 들어갑니다. 서브타이틀이 들어갑니다.
+                </p>
+              </div>
+            </a>
+            <a href="#none" class="content" data-type="uiux">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>타이틀이 들어갑니다.</h4>
+                <p>
+                  서브타이틀이 들어갑니다. 서브타이틀이 들어갑니다.
+                </p>
+              </div>
+            </a>
+          </div>
+          <a href="#none" class="btn-more">view more</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="inner">
+        <div class="footer-wrap">
+          <div class="footer-logo">
+            <img src="img/footer-logo.png" alt="위버로프트 로고">
+          </div>
+          <p>Copyright © All Rights Reserved.</p>
+          <ul class="sns">
+            <li><a href="#none">facebook</a></li>
+            <li><a href="#none">youtube</a></li>
+            <li><a href="#none">instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <button class="popup">popup</button>
+    <div class="modal-wrap">
+      <div class="modal-content">
+        <h3>팝업 타이틀이 들어갑니다.</h3>
+        <button class="close">닫기</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
